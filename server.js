@@ -15,4 +15,4 @@ app.use(serveStatic(__dirname + '/dist'));
 app.use(history());
 
 // our app will listen on port heroku give us or by default at 5000
-app.listen(process.env.PORT || 5000);
+app.listen(process.env.PORT || 4000);
